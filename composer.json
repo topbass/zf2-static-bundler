@@ -1,0 +1,23 @@
+{
+    "name": "topbass/static-bundler",
+    "type": "zend-extra",
+    "description": "ZF2 Static Bundler from Topbass Labs",
+    "keywords": [],
+    "homepage": "http://topbasslabs.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rollie Ma",
+            "email": "rollie@topbasslabs.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "StaticBundler\\": "src/",
+            "StaticBundlerTest\\": "test/"
+        }
+    },
+    "require": {
+        "composer/installers": "*"
+    }
+}
